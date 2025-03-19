@@ -1,5 +1,5 @@
 resource "spacelift_stack" "test-stack" {
-  branch            = "master"
+  branch            = "main"
   name              = "stackname"
   repository        = "tftest"
 }
