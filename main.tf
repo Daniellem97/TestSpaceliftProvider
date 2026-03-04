@@ -7,10 +7,7 @@ resource "spacelift_stack" "stack_1" {
   space_id = "testnoinheritance-01J82YD2J1E8BRQAR8E1WS3075"
   terraform_version = "1.3.0"
 }
-  # Optional but commonly set:
-  # administrative = false
-  # terraform_workflow_tool = "OPEN_TOFU" # or "TERRAFORM" depending on your setup
-}
+
 
 # A policy in space metabasetest-01JPQM3E86ETE2TKCNXVD2MEH1
 resource "spacelift_policy" "metabase_policy" {
